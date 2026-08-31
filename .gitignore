@@ -1,0 +1,33 @@
+@"
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Uploaded PDFs
+data/uploads/
+*.pdf
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Redis
+dump.rdb
+appendonly.aof
+"@ | Set-Content .gitignore
