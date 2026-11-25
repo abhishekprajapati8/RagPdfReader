@@ -28,7 +28,7 @@ def get_client():
 def index_document(document_id, filename, pages):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=800,
-        chunk_overlap=120
+        chunk_overlap=150
     )
 
     collection = get_client().get_or_create_collection(

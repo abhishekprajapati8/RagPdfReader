@@ -31,7 +31,7 @@ QUESTION:
 
     llm = ChatGroq(
         api_key=os.getenv("GROQ_API_KEY"),
-        model=os.getenv("LLM_MODEL", "llama-3.1-8b-instant"),
+        model=os.getenv("LLM_MODEL", "openai/gpt-oss-20b"),
         temperature=0,
     )
 
